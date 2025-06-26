@@ -9,7 +9,6 @@ public class UnearthedTruthsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(UnearthedTruthsApplication.class, args);
-        Dotenv.load();
     }
 
 }
