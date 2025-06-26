@@ -95,6 +95,12 @@
 
     <build>
         <finalName>unearthed-truths</finalName>
+         <resources>
+             <resource>
+               <directory>src/main/resources</directory>
+               <filtering>false</filtering>
+             </resource>
+         </resources>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
