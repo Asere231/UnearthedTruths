@@ -1,0 +1,46 @@
+[
+  {
+    "id": 2,
+    "title": "Jesus' Trial",
+    "description": "The Praetorium was likely the site where Jesus stood trial before Pontius Pilate. Archaeological remains near Herod’s palace—such as the stone pavement and judgment platform—match biblical accounts of the trial.",
+    "latitude": 31.773571,
+    "longitude": 35.227731,
+    "bibleEra": "New Testament",
+    "region": "Israel",
+    "type": "Ruin",
+    "sourceLink": "https://www.youtube.com/watch?v=nKJ6GPvNUgc"
+  },
+  {
+    "id": 3,
+    "title": "Earliest-Discovered Use of the Name ‘Yahweh’",
+    "description": "Soleb Inscription – A 1400 BCE Egyptian temple names “Yahweh” in reference to nomads, likely early Israelites, supporting the biblical Exodus timeline.",
+    "latitude": 20.436389,
+    "longitude": 30.334444,
+    "bibleEra": "Old Testament",
+    "region": "Sudan",
+    "type": "Ruin",
+    "sourceLink": "https://www.youtube.com/watch?v=pGEOZ5YI22M"
+  },
+  {
+    "id": 5,
+    "title": "Giant-Sized Spearhead Linked to Gath",
+    "description": "A 2kg, 66cm copper spearhead from the Monash hoard echoes 1 Samuel’s account of Goliath’s massive weapon—offering rare, tangible evidence of biblical-scale warriors.",
+    "latitude": 31.697777,
+    "longitude": 34.848055,
+    "bibleEra": "Old Testament",
+    "region": "Israel",
+    "type": "Artifact",
+    "sourceLink": "https://www.youtube.com/watch?v=dlUJxNFyRBM"
+  },
+  {
+    "id": 1,
+    "title": "Site of Jesus' Crucifixion",
+    "description": "The Church of the Holy Sepulchre in Jerusalem is believed to be the site of Jesus' crucifixion, burial, and resurrection. It is one of the most sacred places in Christianity.",
+    "latitude": 31.779166666666665,
+    "longitude": 35.23027777777778,
+    "bibleEra": "New Testament",
+    "region": "Israel",
+    "type": "Church",
+    "sourceLink": "https://www.youtube.com/watch?v=ufVXZBrbSsU"
+  }
+]
