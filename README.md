@@ -12,7 +12,6 @@ UnearthedTruths is a Java Spring Boot RESTful API that catalogs archaeological d
 - [API Endpoints](#-api-endpoints)
 - [Environment Configuration](#-environment-configuration)
 - [Docker Deployment](#-docker-deployment)
-- [Swagger/OpenAPI](#-swaggeropenapi)
 - [CI/CD with Render](#-cicd-with-render)
 - [Render Cold Start Notes](#-render-cold-start-notes)
 - [Testing](#-testing)
@@ -31,7 +30,6 @@ UnearthedTruths is a Java Spring Boot RESTful API that catalogs archaeological d
 - JWT (`jjwt`)
 - Lombok
 - Docker
-- Dotenv for environment loading
 - Maven
 
 ---
@@ -124,26 +122,6 @@ docker run -p 8080:8080 \
 
 ---
 
-## 📖 Swagger/OpenAPI
-
-To enable Swagger in Spring Boot 3.5:
-
-### 1. Add dependency to `pom.xml`:
-```xml
-<dependency>
-  <groupId>org.springdoc</groupId>
-  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-  <version>2.5.0</version>
-</dependency>
-```
-
-### 2. Access the Swagger UI:
-```
-http://localhost:8080/swagger-ui.html
-```
-
----
-
 ## 🚀 CI/CD with Render
 
 Render can deploy your API directly from GitHub.
@@ -155,23 +133,6 @@ Render can deploy your API directly from GitHub.
    - Start Command: leave blank (Dockerfile will handle it)
 2. Add environment variables:
    - `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, `JWT_SECRET`
-
-### Optional: GitHub Actions
-
-```yaml
-# .github/workflows/render-deploy.yml
-name: Deploy to Render
-on:
-  push:
-    branches: [main]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
-```
 
 ---
 
